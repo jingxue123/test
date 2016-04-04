@@ -1,0 +1,144 @@
+body{
+	font-family:'微软雅黑';
+	background-color:#dedede;
+}
+.nav{
+	width:100%;
+	height:60px;
+	background-color:#333;
+	overflow:hidden;
+}
+.nav .log{
+	float:left;
+	margin:10px 0 10px 40px;
+}
+.nav  .nav_list{
+	float:right;
+	margin:10px 20px 10px 0;
+}
+.nav_list li{
+	float:left;
+	height:40px;
+	line-height:40px;
+	margin-right:20px;
+	color:#000;
+}
+.nav_list li a{
+	color:#fff;
+	text-decoration:none;
+	font-size:12px;
+}
+.container{
+	background-color:#dedede;
+	padding:20px;
+}
+article{
+	background-color:#fff;
+	padding:30px 20px;
+	margin-bottom:10px;
+	box-shadow:2px 2px 2px #999;
+}
+.subtitle,.author{
+	color:gray;
+}
+.main_text{
+	text-indent:2em;
+}
+.none{
+	list-style-type:none;
+}
+.pic{
+	margin:20px;
+	padding:10px 10px 10px 10px;
+	border:solid gray 1px;
+	width:400px;
+}
+.pic p{
+	text-align:center;
+	margin-bottom:10px;
+}
+
+.grade{
+	list-style-type:decimal;
+}
+.main_text table{
+	width:%100;
+	text-align:left;
+}
+/*.main_text table caption{
+	text-align:center
+}
+*/
+.main_text table thead{
+	background:#333;
+	color:#CCC;
+}
+.main_text table tfoot{
+	background:#ccc;
+}
+.passpage{
+    margin:20px 10px 10px 20px;
+}
+.sidebar{
+    padding:20px;
+    background-color:#fff;
+}
+.sidebar .sidebar-content{
+   padding:20px;
+   background-color:white;
+}
+.sidebar h2{
+    margin-left:20px;
+    border-left:solid 3px gray;
+    padding-left:10px;
+}
+.sidebar .inp{
+    display:block;
+    margin:20px;
+    text-align:center;
+
+}
+/*.sidebar .inp p{
+    float: left;
+    width: 30%;
+    text-align: center;
+    padding-right: 10px;
+}*/
+.sidebar .inp input[type="submit"]{
+    width:100%;
+    background-color:blue;
+    color:white;
+    height:40px;
+    border:none;
+    box-shadow:5px 5px 5px #B6b6b6;
+    border-radius:5px;
+    text-shadow:1px 1px 1px #9e3f3f;
+    font-size:20px;
+    font-weight:bold;
+    cursor:pointer;
+}
+.sidebar .tip{
+    text-align:center;
+    height:25px;
+
+}
+.sidebar .tip .tip-right{
+    width:100%;
+    text-align:center;
+}
+.sidebar .tip p{
+    text-align:left;
+    color:#dedede;
+    text-align:center;
+}
+.footer{
+
+    padding:20px;
+}
+.footer .copy{
+    color:black;
+    text-align:center;
+}
+
+
+
