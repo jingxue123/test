@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>JavaScript Task 01(学王一拖三）</title>
+</head>
+<body>
+
+<label>请输入北京今天空气质量：<input id="aqi-input" type="text"></label>
+<button id="button" onclick="submit1()">确认填写</button>
+
+<div>您输入的值是：<span id="aqi-display">尚无录入</span></div>
+
+<script type="text/javascript">
+
+    function submit1(){
+        //获得输入的空气质量值的标签input
+        var aqi=document.getElementById("aqi-input");
+        //获取输入值的标签span
+        var display=document.getElementById("aqi-display");
+        //获取span的内容
+        var text1=display.firstChild;
+        //将input的内容替换为span的值
+        text1.nodeValue=aqi.value;
+    }
+
+</script>
+</body>
+</html>
